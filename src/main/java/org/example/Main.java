@@ -1,17 +1,12 @@
 package org.example;
-
 import guru.nidi.graphviz.attribute.*;
-
 import java.io.*;
 import java.util.*;
 import java.util.regex.*;
-
 import static guru.nidi.graphviz.model.Factory.*;
-
 import guru.nidi.graphviz.engine.Format;
 import guru.nidi.graphviz.engine.Graphviz;
 import guru.nidi.graphviz.model.MutableGraph;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
