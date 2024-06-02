@@ -1,0 +1,10 @@
+digraph G {
+  "the" -> "rain" [label="1"];
+  "how" -> "are" [label="1"];
+  "are" -> "you" [label="2"];
+  "in" -> "the" [label="1"];
+  "today" -> "are" [label="1"];
+  "fire" -> "in" [label="1"];
+  "you" -> "today" [label="1"];
+  "you" -> "fire" [label="1"];
+}

@@ -1,0 +1,18 @@
+digraph G {
+  the [label="the"];
+  how [label="how"];
+  rain [label="rain"];
+  are [label="are"];
+  in [label="in"];
+  today [label="today"];
+  fire [label="fire"];
+  you [label="you"];
+  the -> rain [label="1", color="black"];
+  how -> are [label="1", color="red"];
+  are -> you [label="2", color="red"];
+  in -> the [label="1", color="black"];
+  today -> are [label="1", color="black"];
+  fire -> in [label="1", color="black"];
+  you -> today [label="1", color="black"];
+  you -> fire [label="1", color="black"];
+}
